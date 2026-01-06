@@ -5,7 +5,7 @@ description = "A Python library for programming using natural language."
 authors = [{name = "Leonardo Mieschendahl"}]
 dependencies = [
   "openai == 1.106.0",
-  "easy_prompting @ git+https://github.com/Mieschendahl/EasyPrompting.git@7.4.0"
+  "easy_prompting @ git+https://github.com/Proglang-TypeScript/EasyPrompting.git@7.4.0"
 ]
 
 [build-system]

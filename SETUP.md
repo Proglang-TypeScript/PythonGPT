@@ -9,7 +9,7 @@ python3 -m pip install <path to this project>
 
 If you do not want to clone this project you can also run:
 ```bash
-python3 -m pip install "pythongpt @ git+https://github.com/Mieschendahl/PythonGPT.git"
+python3 -m pip install "pythongpt @ git+https://github.com/Proglang-TypeScript/PythonGPT.git"
 ```
 
 After that, set your [OpenAI API Key](https://platform.openai.com/api-keys) to the environment variable `OPENAI_API_KEY`:
