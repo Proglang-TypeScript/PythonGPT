@@ -1,0 +1,16 @@
+[project]
+name = "pythongpt"
+version = "1.0.0"
+description = "A Python library for programming using natural language."
+authors = [{name = "Leonardo Mieschendahl"}]
+dependencies = [
+  "openai == 1.106.0",
+  "easy_prompting @ git+https://github.com/Mieschendahl/EasyPrompting.git@7.4.0"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["build*", "dist*", "dev*"]
